@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Random Totems: Tower Defense</title>
+  <link rel="icon" href="img/favicon.png" type="image/png">
+  <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-shape">
+
+<!--================ privacy policy popup start =================-->
+  <div id="privacy_popup" class="overlay">
+    <div class="popup">
+      <h2>Privacy Policy</h2>
+      <a class="close" href="#">&times;</a>
+      <div class="privacy_content">
+        <p>Solonukhin Vadim built the Random Totems: Tower Defense app as a Commercial app. This SERVICE is provided by Solonukhin Vadim and is intended for use as is.</p>
+        <p>This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.</p>
+        <p>If you choose to use my Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that I collect is used for providing and improving the Service. I will not use or share your information with anyone except as described in this Privacy Policy.</p>
+        <p>The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at Detective Max Mystery unless otherwise defined in this Privacy Policy.</p>
+        <br /><p><strong>Information Collection and Use</strong></p>
+        <p>For a better experience, while using our Service, I may require you to provide us with certain personally identifiable information. The information that I request will be retained on your device and is not collected by me in any way.</p>
+        <p>The app does use third party services that may collect information used to identify you.</p>
+        <div>
+          <p>Link to privacy policy of third party service providers used by the app</p>
+          <ul>
+            <li><a href="https://support.google.com/admob/answer/6128543?hl=en" target="_blank">AdMob</a></li>
+            <li><a href="https://amplitude.com/privacy">Amplitude</a></li>
+            <li><a href="https://firebase.google.com/policies/analytics" target="_blank">Firebase Analytics</a></li>
+            <li><a href="https://firebase.google.com/terms/crashlytics" target="_blank">Firebase Crashlytics</a></li>
+            <li><a href="https://unity3d.com/legal/privacy-policy" target="_blank">Unity</a></li>
+          </ul>
+        </div>
+        <br /><p><strong>Log Data</strong></p>
+        <p>I want to inform you that whenever you use my Service, in a case of an error in the app I collect data and information (through third party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing my Service, the time and date of your use of the Service, and other statistics.</p>
+        <br /><p><strong>Cookies</strong></p>
+        <p>Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device's internal memory.</p>
+        <p>This Service does not use these “cookies” explicitly. However, the app may use third party code and libraries that use “cookies” to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.</p>
+        <br /><p><strong>Service Providers</strong></p>
+        <p>I may employ third-party companies and individuals due to the following reasons:</p>
+        <ul>
+          <li>To facilitate our Service;</li>
+          <li>To provide the Service on our behalf;</li>
+          <li>To perform Service-related services; or</li>
+          <li>To assist us in analyzing how our Service is used.</li>
+        </ul>
+        <p>I want to inform users of this Service that these third parties have access to your Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.</p>
+        <br /><p><strong>Security</strong></p>
+        <p> I value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and I cannot guarantee its absolute security.</p>
+        <br /><p><strong>Links to Other Sites</strong></p>
+        <p>This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by me. Therefore, I strongly advise you to review the Privacy Policy of these websites. I have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.</p>
+        <br /><p><strong>Children’s Privacy</strong></p>
+        <p>These Services do not address anyone under the age of 13. I do not knowingly collect personally identifiable information from children under 13. In the case I discover that a child under 13 has provided me with personal information, I immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact me so that I will be able to do necessary actions.</p>
+        <br /><p><strong>Changes to This Privacy Policy</strong></p>
+        <p>I may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately after they are posted on this page.</p>
+        <br /><p><strong>Contact Us</strong></p>
+        <p>If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at <a href="mailto:dev.jam.games@gmail.com">dev.jam.games@gmail.com</a>.</p>
+        <p>This privacy policy page was created at <a href="https://privacypolicytemplate.net" target="_blank">privacypolicytemplate.net</a> and modified/generated by <a href="https://app-privacy-policy-generator.firebaseapp.com/" target="_blank">App Privacy Policy Generator</a></p>
+      </div>
+    </div>
+  </div>
+<!--================privacy policy popup Area end =================-->
+
+  <!--================ Header Menu Area start =================-->
+  <div>
+    <a name="home" style="font-size:0;"></a>
+  </div>
+
+  <header class="header_area">
+    <div class="main_menu">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container box_1620">
+          <a class="navbar-brand logo_h" href="#home"><img src="img/logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+            <ul class="nav navbar-nav menu_nav justify-content-end">
+              <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+              <li class="nav-item"><a class="nav-link" href="#privacy_popup">Privacy Policy</a></li>
+            </ul>
+          </div> 
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!--================Header Menu Area =================-->
+
+
+  <!--================Hero Banner Area Start =================-->
+  <section class="hero-banner magic-ball">
+    <div class="container">
+
+      <div class="row align-items-center text-center text-md-left">
+        <div class="col-md-6 col-lg-5 mb-5 mb-md-0">
+          <h1>Random Totems <br> Tower Defense</h1>
+          <p>Tower defense is a subgenre of strategy games where the goal is to defend a player's territories or possessions by obstructing the enemy attackers or by stopping enemies from reaching the exits, usually achieved by placing defensive structures on or along their path of attack </p>
+          <a class="button button-hero mt-4" href="#">Get it on Android</a>
+          <a class="button button-hero mt-4" href="#">Get it on Iphone</a>
+        </div>
+        <div class="col-md-6 col-lg-7 col-xl-6 offset-xl-1">
+          <img class="img-fluid" src="img/hero-img.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--================Hero Banner Area End =================-->
+
+
+  <!--================Service Area Start =================-->
+  <section class="section-margin generic-margin">
+    <div class="container">
+      <div class="section-intro text-center pb-90px">
+        <img class="section-intro-img" src="img/section-icon.png" alt="">
+        <h2>Random Totems</h2>
+        <p>The best tower defense game</p>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+          <div class="service-card text-center">
+            <div class="service-card-img">
+              <img class="img-fluid" src="img/service2.png" alt="">
+            </div>
+            <div class="service-card-body">
+              <p>Fight monsters <br> Beat them all</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+          <div class="service-card text-center">
+            <div class="service-card-img">
+              <img class="img-fluid" src="img/service1.png" alt="">
+            </div>
+            <div class="service-card-body">
+              <p>Play with friends <br> Fight together</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+          <div class="service-card text-center">
+            <div class="service-card-img">
+              <img class="img-fluid" src="img/service3.png" alt="">
+            </div>
+            <div class="service-card-body">
+              <p>Collect cards <br> Make the best card set</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--================Service Area End =================-->
+
+
+  
+  
+  <!--================Blog section Start =================-->
+  <div>
+    <a name="contact" style="font-size:0;"></a>
+  </div>
+  
+  <section class="section-padding bg-gray">
+    <div class="container">
+      <div class="section-intro text-center pb-90px">
+        <img class="section-intro-img" src="img/section-icon.png" alt="">
+        <h2>Other Jam Games</h2>
+        <p>We are a small company creating one of a kind games.<br>You inspire us.</p><br>
+        <p>We are open to hear your feedback, please email on <a href="mailto:dev.jam.games@gmail.com" class="email-link">dev.jam.games@gmail.com</a></p>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+          <div class="card-blog">
+            <img class="card-img rounded-0" src="img/blog-1.png" alt="">
+            <div class="card-blog-body">
+              <h4>Detective Max Mystery:<br>High School Murder</h4>
+              <p>Something unbelievable happened today... And everything has changed at once. My name is Max. A few weeks are left until the prom. But not the upcoming exams are now worrying the whole school... Since today my life has been radically changed. Today my friend was found murdered. My duty now is to unravel the mystery of his death. I will certainly get to the bottom of the truth. The killer will be caught, I give my word.</p>
+              <a class="button button-hero mt-4" href="https://play.google.com/store/apps/details?id=com.detective.mystery.school.murder" target="_blank">Android</a>
+              <a class="button button-hero mt-4" href="https://apps.apple.com/us/app/id1504107222" target="_blank">IOS</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+          <div class="card-blog">
+            <img class="card-img rounded-0" src="img/blog-2.png" alt="">
+            <div class="card-blog-body">
+              <h4>Birdies Escape:<br>Candy Gems and Jewels Match</h4>
+              <p>You are about to go on a trip to escape little cute birdies! This adventurous journey will take you through magic forest and candy lands, across the granny's farm and Christmas world, on the dessert planet and summer beaches, under the starry skies and the surface of the water... Are you ready for some jewel crush?</p>
+              <a class="button button-hero mt-4" href="https://play.google.com/store/apps/details?id=birdies.candy.gems.jewels.match" target="_blank">Android</a>
+              <a class="button button-hero mt-4" href="https://apps.apple.com/us/app/id1524220428" target="_blank">IOS</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+          <div class="card-blog">
+            <img class="card-img rounded-0" src="img/blog-3.png" alt="">
+            <div class="card-blog-body">
+              <h4>Detective Max Mystery:<br>Double Clues Murder</h4>
+              <p>Almost a year has passed since my first investigation - the Conor school case. I decided to take a break before going to university. I visited several countries, read a book that had been gathering dust on the shelf for a long time, and finally began to prepare to enter the Faculty of Engineering. My life was just getting perfect, and I almost forgot about that little detective experience. But, suddenly, another unusual death occurred in our town.</p>
+              <a class="button button-hero mt-4" href="#" target="_blank">Android</a>
+              <a class="button button-hero mt-4" href="#" target="_blank">IOS</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--================ Blog section End =================-->
+
+  
+  
+  <!-- ================ start footer Area ================= -->
+  <footer class="footer-area">
+    <div class="container">
+      <div class="footer-bottom">
+        <div class="row align-items-center">
+          <p class="col-lg-8 col-sm-12 footer-text m-0 text-center text-lg-left"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with ♥ by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- ================ End footer Area ================= -->
+
+
+
+
+  <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
+  <script src="vendors/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
